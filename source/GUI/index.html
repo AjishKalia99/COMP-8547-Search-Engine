@@ -19,8 +19,7 @@
                 if(search_val!="")
                 {
                     $.ajax({
-                    //   url: "http://localhost:7003/search",
-                      url:"https://4d18-2607-9880-3948-144-11ec-6483-3aa5-eae3.ngrok.io/search",
+                      url: "http://localhost:7003/search",
                       method:"POST",
                       data:{'Search_Query':search_val},
                       success:function(data){
